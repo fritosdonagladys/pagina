@@ -32,7 +32,6 @@ body {
 }
 
 header {
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -40,10 +39,23 @@ header {
     align-items: center;
     gap: 10px;
 
+    #menuPrincipal {
+        display: none;
+    }
+
+    #cerrarMenu {
+        display: none;
+    }
+
     .logo {
         img {
             width: 160px;
         }
+    }
+
+    .iconoMenu {
+        width: 25px;
+        display: none;
     }
 
     .nav {
@@ -51,6 +63,13 @@ header {
             background: #d00000;
             font-weight: 700;
             color: white;
+        }
+        
+        h2{
+            font-family: 'Varela', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            color: #fdd466;padding: 5px;
         }
 
         a {
@@ -382,8 +401,36 @@ footer {
 }
 
 @media screen and (max-width:1100px) {
+
+
     header {
+        #menuPrincipal {
+            display: block;
+        }
+
+        #cerrarMenu {
+            display: block;
+        }
+
+        flex-direction: column;
         justify-content: center;
+
+        .iconoMenu {
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+
+        .iconoMenu {
+            position: relative;
+            left: 135px;
+            top: 50px;
+            width: 50px;
+            display: block;
+        }
+
 
         .logo {
             margin-top: 50px;
@@ -394,7 +441,15 @@ footer {
         }
 
         nav {
-            display: none;
+            width: 375px;
+            padding: 30px 70px;
+            background-color: #032b43a8;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            position: relative;
+            left: 400px;
+            top: -300px;
         }
 
         .redes {
@@ -404,13 +459,14 @@ footer {
 
     main {
         .slideshow {
-           
+
             width: 375px;
             display: flex;
-            justify-content:flex-end ;
-        
+            justify-content: flex-end;
+
             .slides {
                 width: 1125px;
+
                 figure {
                     img {
                         max-width: 375px;
@@ -425,17 +481,18 @@ footer {
                 margin: auto;
             }
 
-            
-        nav {
-        gap: 300px;
-           
+
+            nav {
+                gap: 300px;
+
+            }
+
+
         }
 
-           
+        .informacion {
+            display: none;
         }
-         .informacion {
-                display: none;
-            }
 
 
     }

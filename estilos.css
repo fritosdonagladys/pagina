@@ -422,6 +422,10 @@ footer {
             &:hover {
                 transform: scale(1.2);
             }
+            img{
+                width: 50px;
+                height:30px;
+            }
         }
 
         .iconoMenu {
@@ -543,3 +547,4 @@ footer {
     }
 
 }
+

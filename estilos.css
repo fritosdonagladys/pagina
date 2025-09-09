@@ -421,6 +421,7 @@ footer {
 
             &:hover {
                 transform: scale(1.2);
+                transform: translateX(-5px);
             }
             img{
                 width: 50px;
@@ -434,8 +435,7 @@ footer {
             top: 50px;
             width: 50px;
             display: block;
-             p{
-                font-family: 'Varela';
+             p{                
                 font-size: 18px;
                 color: #fdd466;
             }
@@ -552,5 +552,6 @@ footer {
     }
 
 }
+
 
 

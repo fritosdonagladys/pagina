@@ -434,6 +434,11 @@ footer {
             top: 50px;
             width: 50px;
             display: block;
+             p{
+                font-family: 'Varela';
+                font-size: 18px;
+                color: #fdd466;
+            }
         }
 
 
@@ -547,4 +552,5 @@ footer {
     }
 
 }
+
 

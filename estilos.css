@@ -417,6 +417,7 @@ footer {
 
         .iconoMenu {
             cursor: pointer;
+            z-index:200;
 
             &:hover {
                 transform: scale(1.2);
@@ -540,4 +541,5 @@ footer {
 
         }
     }
+
 }

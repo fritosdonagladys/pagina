@@ -19,3 +19,16 @@ cerrarMenu.addEventListener('click', () => {
     iconoMenu.style.transition = `ease-in-out 1000ms all`;
     iconoMenu.style.opacity ="1";
 })
+
+
+function icono(){
+
+    var celNumero = "+573154882038"
+
+    var url = "https://wa.me/" + celNumero + "?text="
+    +"¡Buenos días!";
+
+    window.open(url, '_blank').focus();
+
+}
+

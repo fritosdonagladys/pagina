@@ -448,7 +448,7 @@ footer {
             width: 375px;
             height: 100vh;
             padding: 30px 70px;
-            background-color: #ffffff9f;
+            background-color: #ffffffde;
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -559,4 +559,5 @@ footer {
 
         }
     }
+
 }

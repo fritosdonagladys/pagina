@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fritos Doña Gladys</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilosContacto.css">
+    <script defer src="./contacto.js"></script>
+</head>
+
+<body>
+    <div class="nosotros">
+        <header class="header">
+
+            <div class="iconoMenu" id="iconoMenu">
+                <!-- <img class="iconoMenuImg" id="iconoMenuImg" src="/IMÁGENES/iconoMenu.png" alt=""> -->
+                <p class="iconoMenuImg" id="iconoMenuImg">Menu</p>
+            </div>
+
+            <figure class="logo">
+                <figcaption>
+                    <img src="IMÁGENES/LOGO(Azul).svg" alt="Logo">
+                </figcaption>
+            </figure>
+
+
+
+
+            <nav class="nav">
+                <a href="" id="menuPrincipal">Menu principal</a>                
+                <a href="Index.html">Inicio</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Servicios.html">Servicios</a>
+                <a href="Productos.html">Pedidos</a>
+                <a href="Contacto.html" class="active">Contacto</a>
+                <div class="cerrarMenu" id="cerrarMenu">
+            </nav>
+            <div class="redes">
+                <p>
+                <nav>
+                    <a href="https://www.instagram.com/fritosdonagladys/" target="_blank">
+                        <img class=".c" src="IMÁGENES/Instagram.svg" alt="Instagram">
+                    </a>
+                </nav>
+
+                <nav>
+                    <a onclick="icono();" href="#">
+                        <img class=".c" src="IMÁGENES/Whatsapp.svg" alt="Instagram">
+                    </a>
+                </nav> +57 323-3995576</p>
+            </div>
+        </header>
+    </div>
+
+    <div class="cinta">
+        <h2>Contacto</h2>
+    </div>
+
+    <div class="nosotros">
+        <main class="contacto">
+            <div class="container">
+                <h3>¿Tiene alguna inquietud para nosotros?</h3>
+                <h4>CONTACTENOS HOY</h4>
+                <div class="iconos">
+                    <img src="IMÁGENES/Call CenterAzul.svg" alt="Instagram">
+                    <p>+57 323-3995576</p>
+                </div>
+                <div class="iconos">
+                    <img src="IMÁGENES/emailAzul.svg" alt="Instagram">
+                    <p>fdgladys@gmail.com</p>
+                </div>
+                <div class="iconos">
+                    <img src="IMÁGENES/CasitaAzul.svg" alt="Instagram">
+                    <p>Barrio el Prado Cereté - Córdoba</p>
+                </div>
+                <div class="iconos">
+                    <img src="IMÁGENES/HorarioAzul.svg" alt="Instagram">
+                    <p>lunes a sábado 06:30 am -02:00 pm </p>
+                </div>
+            </div>
+
+            <div class="form">
+                <form>
+                    <label for="nombre">Nombre</label><br>
+                    <input class="letras" type="text" id="nombre" name="nombre"><br>
+
+                    <label for="email">Correo electrónico</label><br>
+                    <input class="letras" type="email" id="email" name="email" autocomplete="off"><br>
+
+                    <label for="whatsapp">Celular WhatsApp</label><br>
+                    <input class="letras" type="text" id="whatsapp" name="whatsapp"><br>
+
+                    <label for="mensaje">Mensaje</label><br>
+                    <textarea class="letras" id="mensaje" name="mensaje"></textarea><br>
+
+                    <button type="button" onclick="enviar();">Enviar</button>
+                    <!--onclick="window.modal1.showModal();"-->
+
+
+                    <dialog id="modal1">
+                        <p>¡Muchas gracias por escribirnos!</p>
+                        <p>Su inquietud ha sido recibida.</p>
+                        <button onclick="window.modal1.close();">Volver</button>
+                    </dialog>
+
+                    <button class="boton2" type="reset">Limpiar</button>
+
+                </form>
+            </div>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d620.8019480675514!2d-75.78471892242142!3d8.893854862313415!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1757111264765!5m2!1ses-419!2sco"
+                    width="400" height="404" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </main>
+    </div>
+
+
+</body>
+
+<footer>
+    <div class="footer">
+        <figure class="logo">
+            <img src="IMÁGENES/LOGO(Amarillo).svg" alt="Logo">
+        </figure>
+
+        <div class="menu">
+
+
+            <nav class="nav">
+                <p class="centro">Menú</p>
+                <a href="Index.html">Inicio</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Servicios.html">Servicios</a>
+                <a href="Productos.html">Pedidos</a>
+                <a href="Contacto.html">Contacto</a>
+            </nav>
+
+        </div>
+
+        <div class="contacto">
+            <div class="informacion">
+                <p class="centro">
+                    Contacto
+                </p>
+
+                <p>
+                    <img src="IMÁGENES/Casita.svg" alt="Instagram"> Barrio El Prado - Cereté (Córd.)
+                </p>
+
+                <p>
+                    <img src="IMÁGENES/email.svg" alt="Instagram"> fdgladys@gmail.com
+                </p>
+
+                <p>
+                    <img src="IMÁGENES/Call Center.svg" alt="Instagram"> +57 323-3995576
+                </p>
+
+                <p>
+                    <img src="IMÁGENES/Horario.svg" alt="Instagram"> lunes a sábado
+                    6:30 am - 2:00 pm
+
+                </p>
+            </div>
+
+        </div>
+
+        <div class="legal">
+
+            <nav class="nav">
+                <p class="centro">Legal</p>
+                <p>Nota: Algunas de las imagenes, iconos y vectores son de licencia abierta y han sido diseñadas por
+                    Freepik.com</p>
+                <p>Las fuentes utilizadas: Montserrat, Varela y Roboto son de licencia abierta de Google Fonts</p>
+
+                <a href="https://www.freepik.com" target="_blank">www.freepik.com</a>
+                <a href="https://fonts.google.com/" target="_blank">wwww.fonts.google.com/</a>
+                <a href="#">Politica de privacidad</a>
+
+            </nav>
+
+
+        </div>
+    </div>
+
+
+
+</footer>
+
+
+</html>

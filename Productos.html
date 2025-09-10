@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fritos Doña Gladys</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilosProductos.css">
+    <script defer src="./productos.js"></script>
+</head>
+
+<body>
+    <div class="nosotros">
+        <header class="header">
+
+            <div class="iconoMenu" id="iconoMenu">
+                <!-- <img class="iconoMenuImg" id="iconoMenuImg" src="/IMÁGENES/iconoMenu.png" alt=""> -->
+                <p class="iconoMenuImg" id="iconoMenuImg">Menu</p>
+            </div>
+
+            <figure class="logo">
+                <figcaption>
+                    <img src="IMÁGENES/LOGO(Azul).svg" alt="Logo">
+                </figcaption>
+            </figure>
+
+            
+            <nav class="nav">
+                <a href="" id="menuPrincipal">Menu principal</a>            
+                <a href="index.html">Inicio</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Servicios.html">Servicios</a>
+                <a href="#" class="active">Pedidos</a>
+                <a href="Contacto.html">Contacto</a>
+                <div class="cerrarMenu" id="cerrarMenu"><h2>Salir</h2></div>
+            </nav>
+            <div class="redes">
+                <p>
+                <nav>
+                    <a href="https://www.instagram.com/fritosdonagladys/" target="_blank">
+                        <img class=".c" src="IMÁGENES/Instagram.svg" alt="Instagram">
+                    </a>
+                </nav>
+
+                <nav>
+                    <a onclick="icono();" href="#">
+                        <img class=".c" src="IMÁGENES/Whatsapp.svg" alt="Instagram">
+                    </a>
+                </nav> +57 323-3995576</p>
+            </div>
+        </header>
+    </div>
+
+    <div class="cinta">
+        <h2>Solicite su pedido</h2>
+    </div>
+
+    <div class="nosotros">
+        <main class="cards">
+            <div class="card">
+                <img src="IMÁGENES/productos (1).png" alt="">
+                <div class="boton">
+                    <h3 class="producto">Empanada de maíz</h3>
+                    <span class="valor">1500</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <img src="IMÁGENES/productos (2).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Papochito cocido</h3>
+                    <span class="valor">1000</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMÁGENES/productos (3).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Ñame cocido</h3>
+                    <span class="valor">1500</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMÁGENES/productos (4).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Patacón</h3>
+                    <span class="valor">1000</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="IMÁGENES/productos (5).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Arepa dulce</h3>
+                    <span class="valor">1500</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMÁGENES/productos (6).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Berenjena</h3>
+                    <span class="valor">2000</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMÁGENES/productos (7).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Papa rellena</h3>
+                    <span class="valor">2000</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="IMÁGENES/productos (8).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto" class="producto">Arepa de huevo</h3>
+                    <span class="valor">2500</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMÁGENES/productos (9).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Panzerotti</h3>
+                    <span class="valor">3000</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMÁGENES/productos (10).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">E. de maíz pollo</h3>
+                    <span class="valor">1500</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="IMÁGENES/productos (11).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Bola de gato</h3>
+                    <span class="valor">1000</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMÁGENES/productos (12).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Carabañola</h3>
+                    <span class="valor">1500</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMÁGENES/productos (13).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Ahuyama cocida</h3>
+                    <span class="valor">1500</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="IMÁGENES/productos (14).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Dedito de queso</h3>
+                    <span class="valor">1500</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMÁGENES/productos (15).png" alt="">
+
+                <div class="boton">
+                    <h3 class="producto">Jugos naturales</h3>
+                    <span class="valor">2000</span>
+                    <a onclick="agregarAlCarritoClicked(event)" href="#" id="button" class="button"><img
+                            src="IMÁGENES/Cesta más.svg" alt="">Agregar</a>
+                </div>
+            </div>
+        </main>
+
+        <div class="cesta">
+
+            <div class="cestaCompras">
+                <h4>Cesta de compras</h4>
+            </div>
+
+            <table class="lista">
+                <tr class="encabezado">
+                    <td class="cant">Cant.</td>
+                    <td class="tit">Producto</td>
+                    <td class="prec">Precio</td>
+                    <td class="tot">Total</td>
+                </tr>
+            </table>
+
+            <table class="listaProductos" id="listaProductos">
+
+            </table>
+
+            <div class="Total">
+
+                <span totCom>
+                    <h3>Total compra $</h3>
+                    <p id="domicilio">0</p>
+                </span>
+
+            </div>
+
+            <div class="botones">
+
+                <div class="boton">
+                    <a onclick="enviarWhatsapp(event)" href="#" class="button">Finalizar y enviar</a>
+                </div>
+                <div class="boton">
+                    <a onclick="eliminarCesta()" href="#" class="button">Cancelar</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <div class="footer">
+        <figure class="logo">
+            <img src="IMÁGENES/LOGO(Amarillo).svg" alt="Logo">
+        </figure>
+
+        <div class="menu">
+
+
+            <nav class="nav">
+                <p class="centro">Menú</p>
+                <a href="Index.html">Inicio</a>
+                <a href="Nosotros.html">Nosotros</a>
+                <a href="Servicios.html">Servicios</a>
+                <a href="Productos.html">Pedidos</a>
+                <a href="Contacto.html">Contacto</a>
+            </nav>
+
+        </div>
+
+        <div class="contacto">
+            <div class="informacion">
+                <p class="centro">
+                    Contacto
+                </p>
+
+                <p>
+                    <img src="IMÁGENES/Casita.svg" alt="Instagram"> Barrio El Prado - Cereté (Córd.)
+                </p>
+
+                <p>
+                    <img src="IMÁGENES/email.svg" alt="Instagram"> fdgladys@gmail.com
+                </p>
+
+                <p>
+                    <img src="IMÁGENES/Call Center.svg" alt="Instagram"> +57 323-3995576
+                </p>
+
+                <p>
+                    <img src="IMÁGENES/Horario.svg" alt="Instagram"> lunes a sábado
+                    6:30 am - 2:00 pm
+
+                </p>
+            </div>
+
+        </div>
+
+        <div class="legal">
+
+            <nav class="nav">
+                <p class="centro">Legal</p>
+                <p>Nota: Algunas de las imagenes, iconos y vectores son de licencia abierta y han sido diseñadas por
+                    Freepik.com</p>
+                <p>Las fuentes utilizadas: Montserrat, Varela y Roboto son de licencia abierta de Google Fonts</p>
+
+                <a href="https://www.freepik.com" target="_blank">www.freepik.com</a>
+                <a href="https://fonts.google.com/" target="_blank">wwww.fonts.google.com/</a>
+                <a href="#">Politica de privacidad</a>
+
+            </nav>
+
+
+        </div>
+    </div>
+
+
+
+</footer>
+
+
+
+</html>

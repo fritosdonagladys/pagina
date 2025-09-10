@@ -659,7 +659,7 @@ footer {
     }
 
     .cinta {
-        background-position: right;
+        background-position: left;
     }
 
     .nosotros{     
@@ -704,4 +704,5 @@ footer {
 
         }
     }
+
 }

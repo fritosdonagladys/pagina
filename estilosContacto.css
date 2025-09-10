@@ -497,7 +497,7 @@ footer {
             align-items: center;
             gap: 40px;
             .form{
-                padding: 20px 5px;
+                padding: 0px;
             }
         }
     }
@@ -533,5 +533,6 @@ footer {
     }
 
 }
+
 
 
